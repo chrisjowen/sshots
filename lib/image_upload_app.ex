@@ -46,9 +46,8 @@ defmodule ImageUploadApp do
 
 
   def start(_type, _args) do
-    # links = visit([""], []) |> Enum.join(",")
+    links = visit([""], []) |> Enum.join(",")
 
-    links = "products.html#/love-engagement/67,products.html#/love-engagement/46"
 
 
     links
